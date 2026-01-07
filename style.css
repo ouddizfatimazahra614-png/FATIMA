@@ -21,12 +21,20 @@ h1{
     width: 900px;
     margin: 30px auto;
 }
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+}
 .liste{
     width: 35%;
+    
 }
 .liste ul{
     list-style: none;
     padding: 0;
+    /* display: flex;
+    justify-content: flex-start; */
+    list-style: none;
 }
 
 .liste li{
@@ -46,9 +54,9 @@ h1{
     justify-content: right;
 }
 .paragraph{
-    background: #f5f5f5;
+    
     padding: 20px;
-    width: 65%;
+    
     border-radius: italic;
 }
 .a{
@@ -70,4 +78,12 @@ h1{
     font-size: 14px;
     color: #777;
 }
-
+.para{
+    background-color:rgb(255, 255, 255);
+    width: 50%;
+}
+.jiji{
+    width: 100%;
+   border: 0px solid;
+   text-align:right;
+}
